@@ -1,0 +1,55 @@
+site_name: AnimateV1 Docs
+site_url: https://kasurarykerion.github.io/AnimateV1/
+repo_url: https://github.com/kasurarykerion/AnimateV1
+repo_name: animatev1
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Features: features.md
+  - Installation:
+    - Install: installation.md
+    - Install via RBXM: third-party/rbxm.md
+  - API: api.md
+  - Third-Party:
+    - Use with Rojo: third-party/rojo.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - codehilite
+  - footnotes
+  - attr_list
+  - def_list
+  - pymdownx.emoji
+  - pymdownx.superfences
+  - pymdownx.highlight
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kasurarykerion/AnimateV1
