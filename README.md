@@ -22,7 +22,8 @@ For more help, check out [the Rojo documentation](https://rojo.space/docs).
 
 ## AnimateV1 (Custom TweenService Replacement)
 
-Path: `src/shared/Modules/AnimateV1.luau`
+Path: `src/shared/Modules/AnimateV1.luau` in rojo
+Path: `replicatedstorage/Modules/AnimateV1.luau` in roblox
 
 Features:
 - Frame-accurate tweens on `Heartbeat`
