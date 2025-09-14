@@ -30,7 +30,7 @@ Features:
 
 ### Quick Start
 ```lua
-local AnimateV1 = require(game.ReplicatedStorage.Shared.Modules.AnimateV1)
+local AnimateV1 = require(game.ReplicatedStorage.Modules.AnimateV1)
 local part = workspace.Part
 
 -- Basic property tween (like TweenService:Create + :Play())
