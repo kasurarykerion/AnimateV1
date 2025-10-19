@@ -1,7 +1,7 @@
 # AnimateV1
 
 # Documentation
-https://animatedoc-h70zh7df2-kasura0xs-projects.vercel.app/
+https://animatedoc.vercel.app/
 
 Powered by [Rojo](https://github.com/rojo-rbx/rojo) 7.5.1.
 
